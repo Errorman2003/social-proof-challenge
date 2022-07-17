@@ -1,0 +1,165 @@
+body {
+    font-family: 'League Spartan', sans-serif;
+    margin-top: 4rem;
+    margin: auto;
+}
+
+
+section {
+    background-color: hsl(0, 0%, 100%);
+    padding: 5% 10%;
+}
+
+.title h1 {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    padding-right: 30%;
+}
+
+
+.title p {
+    color: hsl(303, 10%, 53%);
+    padding-right: 18%;
+}
+
+
+h5 {
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 5%;
+}
+
+
+img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-right: 5%;
+}
+
+
+
+.rating1, .rating2, .rating3 {
+    background-color: hsl(300, 24%, 96%);
+    width: 70%;
+    padding: 2%;
+    position: relative;
+} 
+
+
+.rating p {
+    display: inline-block;
+    border-radius: 5px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+
+
+.rating1 {
+    left: 10%;
+}
+
+
+.rating2 {
+    left: 20%;
+}
+
+
+.rating3 {
+    left: 30%;
+}
+
+
+.rating br {
+    display: none;
+    visibility: hidden;
+}
+
+
+.colton-sect, .irene-sect, .anne-sect {
+    background: hsl(300, 43%, 22%);
+    color: hsl(300, 24%, 96%);
+    border-radius: 7px;
+    padding: 10%;
+    font-weight: 500;
+    font-size: 15px;
+    position: relative;
+}
+
+
+.irene-sect {
+    top: 5%;
+}
+
+
+.anne-sect {
+    top: 10%;
+}
+
+
+.testimonial span {
+    color: hsl(333, 80%, 67%);
+    display: block;
+}
+
+
+.top-bg, .bottom-bg {
+    position: absolute;
+}
+
+.top-bg {
+    top: 0px;
+    left: 0px;
+}
+
+.bottom-bg {
+    right: 0px;
+    bottom: 0px;
+}
+/* Media Query */
+
+@media (max-width: 991px) {
+    
+    body {
+        text-align: center;
+    }
+
+
+    .title h1{
+        padding: 0;
+    }
+
+
+    .title p {
+        padding: 0;
+    }
+
+
+    .rating1, .rating2, .rating3 {
+        background-color: hsl(300, 24%, 96%);
+        width: 100%;
+        padding: 2%;
+        position: static;
+    } 
+
+
+    .rating br {
+        display: inline;
+        visibility: visible;
+    }
+
+
+    .rating p {
+        line-height: 2;
+    }
+
+
+
+    h5 {
+        text-align: left;
+        margin-bottom: 3%;
+        font-size: small;
+    }
+
+}
